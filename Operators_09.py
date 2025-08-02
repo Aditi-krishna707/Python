@@ -74,3 +74,24 @@ NOT(!)
 left shift(<<)
 right shift(>>)
 """
+
+
+
+# operator precedence
+# BODMAS->bracket open Division .............
+"""
+()
+**
+/, //, %
+*
++,-
+<<,>>
+&,|,^
+comparision operator
+Logical operator(not ,and ,or)
+"""
+
+# solve it 3+2**4/2*5-8//2   ans=39
+
+
+# type()->to find data type of variable
