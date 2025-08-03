@@ -1,5 +1,5 @@
-# variable are container that i used to store data
-# variable are not need to declear paarticular type(int null,boolean)
+# variable are container that is used to store data
+# variable are not need to declear paarticular type(int ,null,boolean)
 # python is Dynamically typed
 
 
@@ -19,13 +19,13 @@
 
 
 name="Aditi"
-print(type(name))
+print("name",type(name))
 
-roll=12;
-print(type(roll))
+roll=12
+print("roll",type(roll))
 
 percentage=33.33
-print(type(percentage))
+print("%",type(percentage))
 
 is_couple=False
 print(type(is_couple))

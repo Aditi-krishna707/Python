@@ -13,6 +13,8 @@
 # //->floor division
 
 # identity operator
+# is->(retuen true if both variable are the same object)
+# is not
 x=5
 y=5
 print("x is y ", x is y)
@@ -79,6 +81,7 @@ right shift(>>)
 
 # operator precedence
 # BODMAS->bracket open Division .............
+
 """
 ()
 **

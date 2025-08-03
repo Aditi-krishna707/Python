@@ -1,4 +1,4 @@
-# input is aleways captured as string 
+# input is always captured as string 
 # so we use typecasting->converting one datatype to another
 
 # name=input("Entre your name :")
