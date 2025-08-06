@@ -3,6 +3,9 @@
 # if we are not mentioning increment ondition then it will increase by onee
 # if we will not give starting point then it will take  form zero
 
+
+# for loop->we use when we know the number of iteration
+
 # for i in range (1,11):
 #     print(i ,"Placement")
 
@@ -21,6 +24,14 @@
 #     print(i)
 
 
-fruits=["apple","mango","Banana"]
-for i in fruits:
+# fruits=["apple","mango","Banana"]
+# for i in fruits:
+#     print(i)
+
+
+i=0
+while(i<51):
     print(i)
+    i+=2
+
+
