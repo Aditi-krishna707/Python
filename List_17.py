@@ -132,7 +132,33 @@ newlist=[]
 
 
 # Nested list
-num1=[1,2,3,99,100,45]
-num1.insert(2,[55,66,77])
-print(num1)
-print(num1[2][1])
+# num1=[1,2,3,99,100,45]
+# num1.insert(2,[55,66,77])
+# print(num1)
+# print(num1[2][1])
+
+
+
+# swap the 
+# element of the index 
+# nums=[10,20,30,40,50]
+# temp=nums[0]
+# nums[0]=nums[3]
+# nums[3]=temp
+# print(nums)
+
+
+# by takinf user input
+
+n=int(input("Entre the number of elemet in list :"))
+list=[]
+for _ in range(n):
+    num=int(input("Entre element :"))
+    list.append(num)
+print(list)    
+idx1=int(input("idx1 :"))    
+idx2=int(input("idx2 :"))    
+temp=list[idx1]
+list[idx1]=list[idx2]
+list[idx2]=temp
+print(list)
