@@ -59,4 +59,38 @@
 
 # make a function which calculate 'a' raise to the power 'b' using recursion
 
-# def pow()
+# don't know error 
+# a=int(input("Entre the value of a "))
+# b=int(input("Entre the value of b "))
+# def pow(a,b):
+#     if(b==0):
+#         return 1
+#     output=a*pow(a,b-1)
+#     return output
+# print(pow(a,b))
+
+# a = int(input("Enter the value of a: "))
+# b = int(input("Enter the value of b: "))
+
+# def power(a, b):
+#     if b == 0:
+#         return 1
+#     return a * power(a, b - 1)
+
+# print(power(a, b))
+
+
+
+# find nth fibonacci term
+
+n=int(input("Entre n :"))
+def fibonacci(n):
+    if(n==1):
+        return 0
+    elif(n==2):
+        return 1
+    else:
+        return (fibonacci(n-1)+fibonacci(n-2))
+for i in range(1,n+1):
+    print(fibonacci(i))    
+# print(fibonacci(n))    
