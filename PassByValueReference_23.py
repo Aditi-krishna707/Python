@@ -27,14 +27,32 @@
 # //////////+++++++++++++++++++when we use assignment operator inside the function
 # //////
 # 
-def fun(list):
-    # list.append(5)
-    list=[7,8,9]
-    print("value of list inside the function :",list)
-list=[1,2,3,4]    
-fun(list)
-print("value of list outside the function :",list)
+# def fun(list):
+#     # list.append(5)
+#     list=[7,8,9]
+#     print("value of list inside the function :",list)
+# list=[1,2,3,4]    
+# fun(list)
+# print("value of list outside the function :",list)
 
 
 
 
+
+
+
+
+
+# predict thr output
+x=50
+def  fun(x):
+    x=2
+fun(x)   
+print(x)
+# ans will be 50 because x is integer that is immutable so copy will be created and actual value will not change
+
+
+def message(msg,time=1):
+    print(msg*time)
+message("hello")    
+message("world",5)
